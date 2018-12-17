@@ -11,7 +11,7 @@ class Song < ActiveRecord::Base
   end
 
   def released?
-    released
+    self.released
   end
 
 end
