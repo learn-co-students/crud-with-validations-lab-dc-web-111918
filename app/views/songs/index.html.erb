@@ -1,0 +1,10 @@
+<h1>Songs List</h1>
+<table>
+  <tbody>
+      <% @songs.each do |song| %>
+          <tr>
+            <th><%= link_to song.title, song %> </th>
+          </tr>
+      <% end %>
+  </tbody>
+</table>
